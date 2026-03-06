@@ -1,6 +1,6 @@
 class EvenNumbers implements Runnable {
     public void run(){
-    for(int i=2 ; i<=112 ; i+=2){
+    for(int i=2 ; i<=20 ; i+=2){
         System.out.println("Even : " + i);
     }
     }
@@ -8,7 +8,7 @@ class EvenNumbers implements Runnable {
 
 class OddNumbers implements Runnable {
     public void run(){
-    for(int i=1 ; i<=111 ; i+=2){
+    for(int i=1 ; i<=20 ; i+=2){
         System.out.println("Odd : " + i);
     }
     }

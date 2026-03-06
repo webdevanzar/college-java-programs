@@ -10,12 +10,12 @@ class DecimalConversion{
 
 
 class Baseconversion{
-     int num;
+    int num;
     void getVal(){
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the number to convert: ");
-       num = sc.nextInt();
+        num = sc.nextInt();
     }
 
 

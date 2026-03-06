@@ -26,6 +26,7 @@ public class Triarea2{
         System.out.println("Area of the triangle is: " + area);
 
     }
+    
     public static double AreaOfATriangle(double a,double b,double c){
         double s;
         s=(a+b+c)/2;

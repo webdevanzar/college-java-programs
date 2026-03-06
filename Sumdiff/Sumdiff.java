@@ -1,13 +1,8 @@
-import java.util.Scanner;
 public class Sumdiff{
     public static void main(String[] args){
 
-        Scanner in  = new Scanner(System.in);
-
-        System.out.println("Enter first no: ");
-        int numOne = in.nextInt();
-        System.out.println("Enter second no: ");
-        int numTwo = in.nextInt();
+        int numOne = Integer.parseInt(args[0]);
+        int numTwo = Integer.parseInt(args[1]);
 
 
          System.out.printf("Sum of two numbers: %d%n ",numOne+numTwo);
